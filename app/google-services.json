@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "908039214963",
+    "firebase_url": "https://android-kokoa.firebaseio.com",
+    "project_id": "android-kokoa",
+    "storage_bucket": "android-kokoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908039214963:android:10581e018ff9286b181706",
+        "android_client_info": {
+          "package_name": "com.gardenlab.androidkokoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908039214963-lcrugjisfl5q3gs6d3okhb7hr4ni6rqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8tOsc_4jfhEIvuDG7VXMSbJw2v-qJy9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908039214963-lcrugjisfl5q3gs6d3okhb7hr4ni6rqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
