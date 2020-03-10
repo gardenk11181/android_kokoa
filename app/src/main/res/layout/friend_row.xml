@@ -22,7 +22,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:padding="1dp"
-                android:background="@drawable/border_white"
+                android:background="@drawable/k_border_white"
                 android:src="@mipmap/ic_launcher"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
