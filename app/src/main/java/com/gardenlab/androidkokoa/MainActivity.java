@@ -23,38 +23,38 @@ public class MainActivity extends AppCompatActivity {
         fragment2 = new Fragment2();
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
-        Button btn1 = findViewById(R.id.btnFriend);
-        Button btn2 = findViewById(R.id.btnChat);
-        Button btn3 = findViewById(R.id.btnNews);
-        Button btn4 = findViewById(R.id.btnSetting);
+        Button btn1 = findViewById(R.id.mButtonFriend);
+        Button btn2 = findViewById(R.id.mButtonChat);
+        Button btn3 = findViewById(R.id.mButtonNews);
+        Button btn4 = findViewById(R.id.mButtonSetting);
 
-        getSupportFragmentManager().beginTransaction().add(R.id.container,fragment1).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.mContainer,fragment1).commit();
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment1).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.mContainer,fragment1).commit();
             }
         });
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment2).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.mContainer,fragment2).commit();
             }
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment3).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.mContainer,fragment3).commit();
             }
         });
 
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment4).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.mContainer,fragment4).commit();
             }
         });
 

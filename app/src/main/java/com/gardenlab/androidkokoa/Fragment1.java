@@ -25,20 +25,7 @@ public class Fragment1 extends Fragment {
 
         FriendAdapter adapter = new FriendAdapter();
         adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
-        adapter.addFriend(new Friend());
+
         recyclerView.setAdapter(adapter);
 
         return rootView;
