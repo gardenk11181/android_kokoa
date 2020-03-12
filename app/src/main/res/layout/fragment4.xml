@@ -72,6 +72,15 @@
             android:layout_margin="20dp"
             android:layout_below="@id/kLine2"/>
 
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kWeather"
+            layout="@layout/k_weather"
+            android:layout_below="@id/kPromotion"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
 
     </RelativeLayout>
 
