@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn3 = findViewById(R.id.mButtonNews);
         Button btn4 = findViewById(R.id.mButtonSetting);
 
-        getSupportFragmentManager().beginTransaction().add(R.id.mContainer,fragment1).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.mContainer,fragment4).commit();
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
