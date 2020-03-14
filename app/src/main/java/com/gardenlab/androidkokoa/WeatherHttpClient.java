@@ -9,9 +9,9 @@ import java.net.URL;
 
 public class WeatherHttpClient {
 
-    private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
+    private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?id=";
     private static String IMG_URL = "http://openweathermap.org/img/w/";
-    private static String APPID = "fa74aceeb578d82a17dbca839fe8941c";
+    private static String APPID = "28f7e99b02cd5af43ef56fd473940a0d";
 
     public String getWeatherData(String location) {
         HttpURLConnection con = null ;

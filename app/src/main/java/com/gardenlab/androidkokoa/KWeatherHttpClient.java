@@ -15,12 +15,12 @@ public class KWeatherHttpClient {
     // request 받아올 url
     private String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?id=";
     private String IMG_URL = "http://openweathermap.org/img/w/";
-    private String APPID = "0294f58d83c9512df0ab1b405219cc2e";
+    private String APPID = "28f7e99b02cd5af43ef56fd473940a0d";
     private String CITYID = "2172797";
+    InputStream is;
+    HttpURLConnection urlConnection;
 
     public String getWeatherJson() {
-        InputStream is=null;
-        HttpURLConnection urlConnection=null;
 
         // unhandled exception을 위한 try-catch구문이 필수적
         try {
@@ -46,6 +46,7 @@ public class KWeatherHttpClient {
         } finally {
             try { is.close(); } catch(Throwable t) {}
             try { urlConnection.disconnect(); } catch(Throwable t) {}
+            Log.d(TAG, "getWeatherJson: called finally");
         }
 
         return null;
